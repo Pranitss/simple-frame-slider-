@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.slider-container {
+  width: 80%;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+.slider-frame {
+  display: flex;
+  transition: transform 1s ease-in-out;
+}
+
+.slider-frame img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
